@@ -27,7 +27,7 @@ showcases some standard algorithms which can be used with arrays (VAR, CON).
 * Students will determine the output of a code segment with multiple method calls (Skill 2.C).
 
 ## Assignment
-* Assignment 6: Array Statistics: Students will write code which creates an array, and then traverses this array to initialize its values and determine certain features (Skill 3.D).
+* [Assignment 6: Array Statistics:](https://github.com/mapoztate/apcsa2020/tree/master/unit6/U6_Assignment) Students will write code which creates an array, and then traverses this array to initialize its values and determine certain features (Skill 3.D).
 
 ## Assessments
 * Unit 6 Quiz
