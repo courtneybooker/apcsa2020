@@ -49,8 +49,8 @@ public class runner_StatsArray{
     StringStatsArray sSA = new StringStatsArray(vals);
     System.out.println("\nMethod returns:");
     System.out.println("toString: " + sSA);
-    /* System.out.println("averageLength: " + sSA.averageLength());
+    System.out.println("averageLength: " + sSA.averageLength());
     System.out.println("search: " + sSA.search(searchVal));
-    System.out.println("sortStatus: " + sSA.sortStatus()); */
+    System.out.println("sortStatus: " + sSA.sortStatus());
   }
 }
