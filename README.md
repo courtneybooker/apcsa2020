@@ -42,7 +42,7 @@ Path format: `[Unit#]/[Lesson#]/[Unit#][Lesson#][Question#].java`
 
 - Lessons 1-5
 
-- [Assignment 6: Array Statistics](https://github.com/mapoztate/apcsa2020/blob/master/unit6/U6_Assignment.java)
+- [Assignment 6: Array Statistics](https://github.com/mapoztate/apcsa2020/tree/master/unit6/U6_Assignment)
 
 [**Unit 7: ArrayList**](https://github.com/mapoztate/apcsa2020/blob/master/unit7/)
 
