@@ -15,8 +15,8 @@ to access and change the elements of an array (VAR).
 * [Unit 6: Lesson 2 - Algorithms – Searching:](https://github.com/mapoztate/apcsa2020/tree/master/unit6/lesson2) This lesson demonstrates how an array can be traversed and
 showcases some standard algorithms which can be used with arrays (VAR, CON).
 * [Unit 6: Lesson 3 - Arrays of Strings:](https://github.com/mapoztate/apcsa2020/tree/master/unit6/lesson3) This lesson introduces arrays of class data types, focusing on the use of arrays of String objects (VAR).
-* Unit 6: Lesson 4 - Algorithms on Arrays: This lesson introduces algorithms which change the contents of arrays by changing the position of elements as well as adding and removing elements (CON).
-* Unit 6: Lesson 5 - The For-Each Loop: This lesson introduces students to the for-each loop (also called the enhanced for loop) which is used to traverse arrays (VAR).
+* [Unit 6: Lesson 4 - Algorithms on Arrays:](https://github.com/mapoztate/apcsa2020/tree/master/unit6/lesson4) This lesson introduces algorithms which change the contents of arrays by changing the position of elements as well as adding and removing elements (CON).
+* [Unit 6: Lesson 5 - The For-Each Loop:](https://github.com/mapoztate/apcsa2020/tree/master/unit6/lesson5) This lesson introduces students to the for-each loop (also called the enhanced for loop) which is used to traverse arrays (VAR).
 
 **This unit’s lessons include the following activities that reinforce the course’s computational thinking practices:**
 * Students will determine the results of executing a block of code with multiple operators working on array elements (Skill 2.B).
