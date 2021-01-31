@@ -1,14 +1,12 @@
 public class U6_L2_Activity_One{
 
   // Write your allNegative method here
-    public static boolean allNegative(double[] vals) {
-      boolean negative = true;
-      for(int i = 0; i < vals.length; i++) {
-        if(vals[i]>=0) {
-        negative = false;
-        break;
-        }
+  public static boolean allNegative(double[] numbers) {
+    for (int i = 0; i <= numbers.length; i++) {
+      if (numbers[i] >= 0) {
+        return false;
       }
-      return negative;
     }
+    return true;
+  }
 }
