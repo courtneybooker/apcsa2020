@@ -48,7 +48,7 @@ Path format: `[Unit#]/[Lesson#]/[Unit#][Lesson#][Question#].java`
 
 - Lessons 1-7
 
-- [Assignment 7: Game Wheel](https://github.com/mapoztate/apcsa2020/blob/master/unit7/U7_Assignment.java)
+- [Assignment 7: Game Wheel](https://github.com/mapoztate/apcsa2020/tree/master/unit7/U7_Assignment)
 
 - Lab: Data Lab
 
@@ -56,7 +56,7 @@ Path format: `[Unit#]/[Lesson#]/[Unit#][Lesson#][Question#].java`
 
 - Lessons 1-2
 
-- [Assignment 8: Battleship](https://github.com/mapoztate/apcsa2020/blob/master/unit8/U8_Assignment.java)
+- [Assignment 8: Battleship](https://github.com/mapoztate/apcsa2020/blob/master/unit8/U8_Assignment)
 
 - Lab: Steganography
 
@@ -64,7 +64,7 @@ Path format: `[Unit#]/[Lesson#]/[Unit#][Lesson#][Question#].java`
 
 - Lessons 1-3
 
-- [Assignment 9: Ultimate Frisbee](https://github.com/mapoztate/apcsa2020/blob/master/unit9/U9_Assignment.java)
+- [Assignment 9: Ultimate Frisbee](https://github.com/mapoztate/apcsa2020/blob/master/unit9/U9_Assignment)
 
 - Lab: Celebrity
 
@@ -72,4 +72,4 @@ Path format: `[Unit#]/[Lesson#]/[Unit#][Lesson#][Question#].java`
 
 - Lessons 1-4
 
-- [Assignment 10: Anagrams](https://github.com/mapoztate/apcsa2020/blob/master/unit10/U10_Assignment.java)
+- [Assignment 10: Anagrams](https://github.com/mapoztate/apcsa2020/blob/master/unit10/U10_Assignment)
