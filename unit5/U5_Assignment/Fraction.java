@@ -23,15 +23,11 @@ public class Fraction
   
   //gets the current numerator
   public int getNumerator() {
-    if(numerator < 0)
-    numerator = 1;
     return numerator; 
   }
   
   //gets the current denominator
   public int getDenominator() {
-    if(denominator < 0)
-    denominator = 1;
     return denominator;
   } 
   

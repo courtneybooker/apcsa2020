@@ -12,10 +12,17 @@ public class NumStatsArray{
 
   //Implement all methods as described
   public String toString(){
-    String str0 = "" + Arrays.toString(holder);
-    str0 = str0.replace('[', '{');
-    str0 = str0.replace(']', '}');
-    return str0;
+    String x = "";
+    x += "{";
+    for (int i = 0; i < holder.length; i++) {
+      x += holder[i];
+      if (i == holder.length-1) {
+        x += "}";
+        break;
+      }
+      x += ", ";
+    }
+    return x;
   }
 
   public double average(){
