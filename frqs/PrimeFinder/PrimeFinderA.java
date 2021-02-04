@@ -8,9 +8,8 @@ public class PrimeFinder
   {
     /* Implement your answer to part (a) here */
     int counter = 0;
-    for(int i = lower; i <= upper; i++) {
-      if(isPrime(i) == true)
-      counter += 1; 
+    for(;lower <= upper; lower++) {
+      if(isPrime(i)) counter++;
     }
     return counter;
   }
