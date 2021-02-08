@@ -7,9 +7,8 @@ public class U5_L2_Activity_Two{
   /* Add the method reverser here */
   public static void reverser(String a) {
     String reverse = "";
-    for(int i = a.length() - 1; i >= 0; i--) {
-    reverse += a.charAt(i);
-    }
+    for(int i = a.length() - 1; i >= 0; i--)
+      reverse += a.charAt(i);
     System.out.println(reverse);
   }
 

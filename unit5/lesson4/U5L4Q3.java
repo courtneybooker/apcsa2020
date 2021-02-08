@@ -6,9 +6,7 @@ import edhesive.shapes.*;
 public class U5_L4_Activity_Three{
   
   public static double areaDiff(Rectangle a, Rectangle b) {
-    Double c = Math.abs(a.getArea() - b.getArea());
-    return c;
-    
+    return Math.abs(a.getArea() - b.getArea());
   }
 
   /* Add the method areaDiff here */

@@ -4,12 +4,9 @@ import java.util.Scanner;
 
 public class U5_L4_Activity_Four{
 
-public static boolean hasRepeat (String word) 
-  {
-    for (int i = 0; i < word.length() - 1; i++)
-    {
-        if (word.substring(i, i + 1).equals(word.substring(i + 1, i + 2)))
-        {
+public static boolean hasRepeat (String word) {
+    for (int i = 0; i < word.length() - 1; i++) {
+        if (word.substring(i, i + 1).equals(word.substring(i + 1, i + 2))) {
           return true;
         }
     }

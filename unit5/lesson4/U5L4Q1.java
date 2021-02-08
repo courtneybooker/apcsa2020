@@ -3,7 +3,7 @@
 import java.util.Scanner;
 import edhesive.shapes.*;
 
-public class U5_L4_Activity_One{
+public class U5_L4_Activity_One {
 
   /* Add the method areaSum here */
   
