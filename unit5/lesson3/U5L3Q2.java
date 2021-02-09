@@ -4,10 +4,10 @@ import java.util.Scanner;
 import edhesive.shapes.*;
 import edhesive.testing.Math;
 
-public class U5_L3_Activity_Two{
+public class U5_L3_Activity_Two {
   
   /* Add the method randomize here */
-public static void randomize(RegularPolygon a) {
+  public static void randomize(RegularPolygon a) {
     a.setNumSides((int) ((Math.random() * (20 - 10 + 1) + 10)));
     a.setSideLength((Math.random() * (11 - 5 + 1) + 5));
   }

@@ -22,10 +22,9 @@ public class RightTriangle {
   else {
     height = 1; }
 }
-  public boolean equals(RightTriangle other){
-  if(base == other.getBase() && height == other.getHeight()) 
-    return true;
-    else
+  public boolean equals(RightTriangle other) {
+    if(base == other.getBase() && height == other.getHeight()) 
+      return true;
     return false; 
   }
   
@@ -43,30 +42,31 @@ public class RightTriangle {
   }
   
   public double getHypotenuse() {
-  hypotenuse = (base * base) + (height * height);
-  hypotenuse = Math.sqrt(hypotenuse);
-  return hypotenuse;
+    hypotenuse = (base * base) + (height * height);
+    hypotenuse = Math.sqrt(hypotenuse);
+    return hypotenuse;
   }  
  
   public double getPerimeter() {
-  hypotenuse = (base * base) + (height * height);
-  hypotenuse = Math.sqrt(hypotenuse);
-  perimeter = hypotenuse + base + height;
-  return perimeter;
+    hypotenuse = (base * base) + (height * height);
+    hypotenuse = Math.sqrt(hypotenuse);
+    perimeter = hypotenuse + base + height;
+    return perimeter;
   }  
  
   public void setBase(double bs) {
-  if(bs > 0)
-    base = bs; 
+    if(bs > 0)
+      base = bs; 
   }
   
   public void setHeight(double ht) {
-  if(ht > 0)
-    height = ht; 
+    if(ht > 0)
+      height = ht; 
   }
 
   public java.lang.String toString() {
-  hypotenuse = (base * base) + (height * height);
-  hypotenuse = Math.sqrt(hypotenuse);
-  return "right triangle with base " + base + ", height " + height + ", hypotenuse " + hypotenuse; }
-}
+    hypotenuse = (base * base) + (height * height);
+    hypotenuse = Math.sqrt(hypotenuse);
+    return "right triangle with base " + base + ", height " + height + ", hypotenuse " + hypotenuse; 
+  }
+} 

@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class U5_L1_Activity_One{
+public class U5_L1_Activity_One {
 
   /* Add the method myMethod here */
 
