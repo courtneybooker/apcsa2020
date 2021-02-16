@@ -32,7 +32,7 @@ public class Assignment2
   System.out.println("\"Airplane 1\": " + a1);
   System.out.println("\"Airplane 2\": " + a2);
   System.out.println("The distance between the planes is " + dist3 + " miles.");
-  System.out.println("The difference in height between the two planes is " + alt3 + " feet.");
+  System.out.println("The difference in height between the planes is " + alt3 + " feet.");
   
   /*New position code starts here: */
   a1.gainAlt();
@@ -56,7 +56,7 @@ public class Assignment2
   System.out.println("\"Airplane 1\": " + a1);
   System.out.println("\"Airplane 2\": " + a2);
   System.out.println("The distance between the planes is " + dist3 + " miles.");
-  System.out.println("The difference in height between the two planes is " + alt3 + " feet.");
+  System.out.println("The difference in height between the planes is " + alt3 + " feet.");
     
     
   }
