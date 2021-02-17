@@ -10,7 +10,7 @@ This unit introduces the concept of 2-D arrays, along with some algorithms that 
 
 ## Lessons
 * [Unit 8: Lesson 1 - 2-D Arrays:](https://github.com/mapoztate/apcsa2020/tree/master/unit8/lesson1) This lesson covers the fundamentals of how data is stored and accessed in a 2-D array (VAR).
-* Unit 8: Lesson 2 - 2-D Array Algorithms: This lesson introduces common algorithms for 2-D arrays, including applying algorithms which were initially defined for 1-D arrays (CON).
+* [Unit 8: Lesson 2 - 2-D Array Algorithms:](https://github.com/mapoztate/apcsa2020/tree/master/unit8/lesson2) This lesson introduces common algorithms for 2-D arrays, including applying algorithms which were initially defined for 1-D arrays (CON).
 
 **This unit’s lessons include the following activities that reinforce the course’s computational thinking practices:**
 * Students will complete a partially completed code segment by determining a correct condition to use (Skill 1.B).
