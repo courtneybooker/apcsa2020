@@ -18,7 +18,7 @@ This unit introduces the concept of 2-D arrays, along with some algorithms that 
 * Students will trace code which traverses a 2-D array and determine what output is when the code is executed (Skill 2.B).
 
 ## Assignment
-* Assignment 8: Battleship: Students will write methods which traverse a 2-D array, representing a board in a battleship game. The methods will change values in the array as well as returning values to determine features of the board (Skill 3.E).
+* [Assignment 8: Battleship:](https://github.com/mapoztate/apcsa2020/tree/master/unit8/U8_Assignment) Students will write methods which traverse a 2-D array, representing a board in a battleship game. The methods will change values in the array as well as returning values to determine features of the board (Skill 3.E).
 
 ## Assessments and Labs
 * Unit 8 Quiz
