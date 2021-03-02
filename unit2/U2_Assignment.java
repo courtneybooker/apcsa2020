@@ -1,6 +1,3 @@
-/* OMIT THIS WHEN DONE */
-/* PLEASE READ: EDHESIVE HAS MADE MISTAKES WITH THEIR AUTOGRADER. THE OUTPUT MATCHES, BUT YOU'LL NEED TO CONTACT YOUR TEACHER TO APPROVE IT. */
-
 /* Unit 2 - Assignment 2: Control Tower */
 /* Class name - must be "Assignment2" in order to run */
 
@@ -32,7 +29,7 @@ public class Assignment2
   System.out.println("\"Airplane 1\": " + a1);
   System.out.println("\"Airplane 2\": " + a2);
   System.out.println("The distance between the planes is " + dist3 + " miles.");
-  System.out.println("The difference in height between the two planes is " + alt3 + " feet.");
+  System.out.println("The difference in height between the planes is " + alt3 + " feet.");
   
   /*New position code starts here: */
   a1.gainAlt();
@@ -56,7 +53,7 @@ public class Assignment2
   System.out.println("\"Airplane 1\": " + a1);
   System.out.println("\"Airplane 2\": " + a2);
   System.out.println("The distance between the planes is " + dist3 + " miles.");
-  System.out.println("The difference in height between the two planes is " + alt3 + " feet.");
+  System.out.println("The difference in height between the planes is " + alt3 + " feet.");
     
     
   }

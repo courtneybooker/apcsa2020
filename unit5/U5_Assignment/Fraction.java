@@ -6,68 +6,65 @@ public class Fraction
   private int denominator;
   private static int numFractions;
   
-  //creates a 1/1 fraction
+  // Creates a 1/1 fraction
   public  Fraction() {
     numerator = 1;
     denominator = 1;
     numFractions++;
   }
   
-  //creates a fraction based on user input
+  // Creates a fraction based on user input
   public Fraction(int n, int d) {
-      this();
-      setNumerator(n);
-    
-      setDenominator(d);
+    this();
+    setNumerator(n);
+  
+    setDenominator(d);
   }
   
-  //gets the current numerator
+  // Gets the current numerator
   public int getNumerator() {
     return numerator; 
   }
   
-  //gets the current denominator
+  // Gets the current denominator
   public int getDenominator() {
     return denominator;
   } 
   
-  //returns how many fractions that are created
+  // Returns how many fractions that are created
   public static int getNumFractions() {
     return numFractions;
   }
   
-  //prints the fraction as a string, numerator over denominator, 1/1
+  // Prints the fraction as a string, numerator over denominator, 1/1
   public String toString() {
     return numerator + "/" + denominator;
   }
   
-  //*****
+  // Returns the whole number part of the fraction
   public String mixedNumber() {
-   //counts the whole number part of the fraction
-   if (numerator/denominator<1) {
+    if (numerator/denominator<1) {
       return toString();
-    }
-    else if(numerator%denominator == 0)  {
+    } else if(numerator%denominator == 0) {
       return "" + numerator/denominator;
-    }
-    else {
-    return numerator / denominator + " " + numerator % denominator + "/" + denominator;
+    } else {
+      return numerator / denominator + " " + numerator % denominator + "/" + denominator;
     }
   }
 
-  //replaces the numerator
+  // Replaces the numerator
   public void setNumerator(int n) {
     if(n > 0)
-    numerator = n;
+      numerator = n;
   }
   
-  //replaces the denominator
+  // Replaces the denominator
   public void setDenominator(int d) {
     if(d > 0) 
-    denominator = d;
+      denominator = d;
   }
   
-  //adds a fraction to the create one
+  // Adds a fraction to the create one
   public void add(int n, int d) {
     if(n > 0 && d > 0) {
       numerator = (numerator*d + denominator*n);
@@ -75,18 +72,18 @@ public class Fraction
     }
   }
   
-  //adds a fractioon to another
+  // Adds a fractioon to another
   public void add(Fraction other) {
    add(other.getNumerator(), other.getDenominator());
   }
   
-  //multiplys fraction to another
+  // Multiplys fraction to another
   public void multiply(int n, int d) {
     if(n > 0 && d > 0) {
     numerator = numerator * n;
     denominator = denominator * d; }
 }
-  //multiplys fraction to another
+  // Multiplys fraction to another
   public void multiply(Fraction other) {
     numerator = numerator * other.getNumerator();
     denominator = denominator * other.getDenominator();

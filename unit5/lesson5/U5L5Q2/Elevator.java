@@ -1,4 +1,4 @@
-public class Elevator{
+public class Elevator {
   
   private int maxFloor; // Represents max possible floor of elevator.
   private int currentFloor; // Represents current floor of elevator.
@@ -13,14 +13,14 @@ public class Elevator{
     inService = true;
     
     if(max > 1)
-    maxFloor = max;
+      maxFloor = max;
     else
-    maxFloor = 2;
+      maxFloor = 2;
     
     if (start > 1 && start <= maxFloor)
-    currentFloor = start;
+      currentFloor = start;
     else
-    currentFloor = 1;
+      currentFloor = 1;
   }
   
   // Returns the maximum floor of the elevator.
@@ -36,8 +36,7 @@ public class Elevator{
   // Returns true if the elevator is in service, false if it is not.
   public boolean isInService(){
     if(inService == true)
-    return true;
-    else
+      return true;
     return false;
   }
   
@@ -45,8 +44,7 @@ public class Elevator{
   // elevator is not in service, sets it to be in service.
   public void toggleInService(){
     if(inService == true)
-    inService = false;
-    else
+      inService = false;
     inService = true;
   }
   
@@ -55,7 +53,6 @@ public class Elevator{
   // does nothing.
   public void goToFloor(int floor){
     if((inService == true) && (floor >= 1 && floor <= maxFloor))
-    currentFloor = floor;
-    
+      currentFloor = floor;
   }  
 }

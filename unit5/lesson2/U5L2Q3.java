@@ -2,12 +2,11 @@
 
 import java.util.Scanner;
 
-public class U5_L2_Activity_Three{
+public class U5_L2_Activity_Three {
 
   /* Add the method swap here */
   public static void swap(int a, double b) {
-    System.out.print(b + " ");
-    System.out.print(a);
+    System.out.print(b + " " + a);
   }
 
   // You can uncomment and add to the main method to test your code

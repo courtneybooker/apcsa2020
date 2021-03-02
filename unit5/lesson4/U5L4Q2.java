@@ -2,12 +2,11 @@
 
 import java.util.Scanner;
 
-public class U5_L4_Activity_Two{
+public class U5_L4_Activity_Two {
 
-public static double average(int a, int b, int c, int d, int e) {
-  double z = (double) (a + b + c + d + e) / 5;
-  return z;
-}
+  public static double average(int a, int b, int c, int d, int e) {
+    return (double) (a + b + c + d + e) / 5;
+  }
   /* Add the method average here */
 
   // You can uncomment and add to the main method to test your code
