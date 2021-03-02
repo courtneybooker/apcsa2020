@@ -25,7 +25,7 @@ This unit introduces the concept of recursion – defining a process in terms of
 * Students will test their method with a variety of test cases (Skill 4.A).
 
 ## Assignment
-* [Assignment 10: Anagrams:](https://github.com/mapoztate/apcsa2020/tree/master/unit8/U10_Assignment) Students will carefully test a recursive method by writing a variety of different
+* [Assignment 10: Anagrams:](https://github.com/mapoztate/apcsa2020/tree/master/unit10/U10_Assignment) Students will carefully test a recursive method by writing a variety of different
 test cases (Skill 4.A).
 
 ## Assessments
