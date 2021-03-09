@@ -1,6 +1,6 @@
 # Unit 10 - Recursion
 
-This unit introduces the concept of recursion – defining a process in terms of itself. In practice, this means writingmethods which contain calls to themselves to solve a problem.
+This unit introduces the concept of recursion – defining a process in terms of itself. In practice, this means writing methods which contain calls to themselves to solve a problem.
 
 ## Duration
 * 3 Weeks
