@@ -45,4 +45,4 @@ public class Room
     return roomNumber+"; "+occupied+"; "+bookingName;
   }
 
-}
+} 
